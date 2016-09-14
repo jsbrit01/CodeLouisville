@@ -19,7 +19,6 @@ var body = document.getElementById('color');
   document.write(html);
 */
 
-
 for(var i = 0; i < 10; i++){
   //Create color for <div>
   red = Math.floor(Math.random() * numColors );
