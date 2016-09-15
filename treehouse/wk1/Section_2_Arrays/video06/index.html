@@ -6,7 +6,15 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<h1>Search the Store</h1>
-<script src="js/search.js"></script>
+  <h1>Search the Store</h1>
+  <div id="storeSearch">
+    <label for="searchRdo">Search</label><input id="searchRdo" name="searchStore" type="radio" checked>
+    <label for="displayRdo">Display All</label><input id="displayRdo" name="searchStore" type="radio"><br/>
+    <label id="searchLbl" for="searchBar">Enter Search Term</label><input id="searchBar" type="text"><br/>
+    <button id="searchBtn">Search</button>
+    <p id='searchResult'>
+    </p>
+  </div>
+  <script src="js/search.js"></script>
 </body>
 </html>
