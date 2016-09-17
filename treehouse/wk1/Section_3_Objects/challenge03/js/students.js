@@ -1,12 +1,12 @@
-var students = [ 
-  { 
-   name: 'Dave',
+var students = [
+  {
+    name: 'Dave',
     track: 'Front End Development',
     achievements: 158,
     points: 14730
   },
   {
-    name: 'Jody',
+    name: 'John',
     track: 'iOS Development with Swift',
     achievements: '175',
     points: '16375'
