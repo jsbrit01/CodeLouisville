@@ -28,3 +28,21 @@ a {
 	text-decoration: none;
 }
 /** Start Coding Here **/
+#overlay{
+	display: none;
+	background-color: rgba(0, 0, 0, .5);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+}
+
+#overlay img{
+	margin-top: 10%;
+}
+
+#overlay p{
+	color: white;
+}
