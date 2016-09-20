@@ -64,3 +64,14 @@ p {
 	color: #777;
 }
 /** Start Coding Here **/
+@media (min-width: 320px) and (max-width: 568px){
+	#menu ul{
+		display: none;
+	}
+}
+
+@media (min-width: 568px){
+	#menu select{
+		display: none;
+	}
+}
