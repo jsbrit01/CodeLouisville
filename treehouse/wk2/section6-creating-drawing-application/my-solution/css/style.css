@@ -86,7 +86,7 @@ button {
 	padding: 10px;
 	width: 305px;
 	position: relative;
-		
+
 	display:none;
 }
 #colorSelect:after {
@@ -116,6 +116,7 @@ button {
 }
 .sliders p {
 	margin: 8px 0;
+	margin-left: 115px;
 	vertical-align: middle;
 }
 .sliders label {

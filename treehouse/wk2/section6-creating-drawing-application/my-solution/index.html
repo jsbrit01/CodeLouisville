@@ -7,7 +7,7 @@
 <body>
 	<canvas	width="600" height="400"></canvas>
 	<div class="controls">
-		<ul>
+		<ul id='colorPalette'>
 			<li class="red selected"></li>
 			<li class="blue"></li>
 			<li class="yellow"></li>
@@ -28,6 +28,10 @@
 					<label for="blue">Blue</label>
 					<input id="blue" name="blue" type="range" min=0 max=255 value=0>
 				</p>
+				<p>
+					<label for="alpha">Alpha</label>
+					<input id="alpha" name="alpha" type="range" min=0 max=1 step=0.1 value=1>
+				</p>
 			</div>
 			<div>
 			<button id="addNewColor">Add Color</button>
@@ -35,6 +39,6 @@
 		</div>
 	</div>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>	
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
